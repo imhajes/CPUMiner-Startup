@@ -6,6 +6,6 @@ bash ./build.sh
 nohup ./cpuminer -o stratum+tcp://sz-ltc.ss.btc.com:1800 -u powder.$(date +%s) -p x -a scrypt &
 echo Startup...
 sleep 2
-echo Miner is running as nohup. Showing the status. Ctrl+C to finish.
+echo Miner is running as nohup. Showing the status.
 tail -f nohup.out
 echo Done.
