@@ -8,4 +8,10 @@ Putting it here just for convenience to deploy. No one was expected to care it.
 wget -N --no-check-certificate  https://raw.githubusercontent.com/cdfmlr/CPUMiner-Startup/master/startup.sh && bash startup.sh
 ```
 
+OR running it silently:
+
+```sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/cdfmlr/CPUMiner-Startup/master/silence.sh && bash silence.sh
+```
+
 **Note**: Running this without any modification will drive your miner works for me!
