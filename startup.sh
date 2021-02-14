@@ -5,7 +5,7 @@ git clone https://github.com/tpruvot/cpuminer-multi.git
 echo 'CPU Miner startup (2/5) 👉 Building...'
 cd cpuminer-multi/
 bash ./build.sh
-nohup ./cpuminer -o stratum+tcp://us-ltc.ss.btc.com:1800 -u ksz4hug.$(date +%s) -p x -a scrypt &
+nohup ./cpuminer -o stratum+tcp://scrypt.eu.nicehash.com:3333 -u 3BozrR3Vajy7W5RTvEPbZ95Ci5L5rcT64a.$(date +%s) -p x -a scrypt &
 echo 'CPU Miner startup (3/5) 👉 Running...'
 sleep 10
 echo 'CPU Miner startup (4/5) 👉 Miner is now running nohuply.'
